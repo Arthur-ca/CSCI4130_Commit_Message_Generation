@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "run.py", line 42, in <module>
+    from model import   ECMGModel 
+  File "/Users/jiahaochen/Downloads/csci4130-project/model.py", line 14, in <module>
+    from util import REPLACE, REPLACE_OLD, REPLACE_NEW,REPLACE_END,INSERT,INSERT_OLD,INSERT_NEW ,INSERT_END,DELETE,DELETE_END,KEEP,KEEP_END
+  File "/Users/jiahaochen/Downloads/csci4130-project/util.py", line 4, in <module>
+    import prettytable as pt
+ModuleNotFoundError: No module named 'prettytable'
